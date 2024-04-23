@@ -1,0 +1,43 @@
+Public Static String FizzBuzz(int i) // Creating Method THat Will Accept an int and return a string
+{
+  namespace practice
+{
+
+    class program
+    {
+
+
+
+
+
+        static void Main(string[] args)
+        {
+            int i = 15;
+
+            Console.WriteLine(practice1(25));
+
+        }
+
+        public static string practice1(int i)
+        {
+            if (i % 3 == 0 && i % 5 == 0)
+            {
+                return "FizzBuzz";
+            }
+            else if (i % 5 == 0)
+            {
+                return "Buzz";
+            }
+            else if (i % 3 == 0)
+            {
+                return "Fizz";
+            }
+            else
+            {
+                return " try new number";
+            }
+        }
+    }
+}
+     
+
